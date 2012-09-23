@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>QuestionnaireApp</servlet-name>
+		<servlet-class>com.google.uent192837465.QuestionnaireAppServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QuestionnaireApp</servlet-name>
+		<url-pattern>/questionnaireapp</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InsAccountName</servlet-name>
+		<servlet-class>com.google.uent192837465.InsAccountName</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsAccountName</servlet-name>
+		<url-pattern>/insaccountname</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SecondQestion</servlet-name>
+		<servlet-class>com.google.uent192837465.SecondQestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SecondQestion</servlet-name>
+		<url-pattern>/secondqestion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>InsSecondQuestion</servlet-name>
+		<servlet-class>com.google.uent192837465.InsSecondQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsSecondQuestion</servlet-name>
+		<url-pattern>/inssecondquestion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>LastMessage</servlet-name>
+		<servlet-class>com.google.uent192837465.LastMessage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LastMessage</servlet-name>
+		<url-pattern>/lastmessage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ThirdQuestion</servlet-name>
+		<servlet-class>com.google.uent192837465.ThirdQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ThirdQuestion</servlet-name>
+		<url-pattern>/thirdquestion</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<servlet-name>InsThirdQuestion</servlet-name>
+		<servlet-class>com.google.uent192837465.InsThirdQuestion</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsThirdQuestion</servlet-name>
+		<url-pattern>/insthirdquestion</url-pattern>
+	</servlet-mapping>		
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
